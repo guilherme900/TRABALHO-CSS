@@ -1,0 +1,33 @@
+body, html{
+    height:100%;
+    margin: 0;
+}
+.fundo{
+    background-image: url("fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#menu{
+    list-style: nome;
+    padding: 0;
+    background-color:#008000;
+    margin: 0%;
+}
+
+#menu li{
+    display: inline;
+}
+
+#menu li a{
+    padding: 11px 12px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+#menu li a:hover{
+    background-color: #000000;
+}
